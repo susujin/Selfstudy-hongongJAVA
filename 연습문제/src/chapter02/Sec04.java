@@ -27,6 +27,28 @@ public class Sec04 {
 		int num2=Integer.parseInt(strNum2);
 		int result=num1+num2;
 		System.out.println("덧셈 결과: "+result);
+		System.out.println();
+		
+		//no.3
+		Scanner scanner2=new Scanner(System.in);
+		
+		System.out.println("[필수 정보 입력]");
+		
+		System.out.print("1. 이름: ");
+		String name2=scanner2.nextLine();
+		
+		System.out.print("2. 주민번호 앞 6자리: ");
+		String birthnum=scanner2.nextLine();
+		
+		System.out.print("3. 전화번호: ");
+		String telnum=scanner2.nextLine();
+		
+		System.out.println();
+		
+		System.out.println("[입력한 내용]");
+		System.out.println(name2);
+		System.out.println(birthnum);
+		System.out.printf("%1$s-%2$s-%3$s", tel1, tel2, tel3);
 	}
 
 }
