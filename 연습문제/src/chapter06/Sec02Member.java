@@ -1,6 +1,6 @@
 package chapter06;
 
-public class Member {
+public class Sec02Member {
 	String name;
 	String id;
 	String password;

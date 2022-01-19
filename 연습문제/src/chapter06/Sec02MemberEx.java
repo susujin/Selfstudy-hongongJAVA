@@ -1,9 +1,9 @@
 package chapter06;
 
-public class MemberEx {
+public class Sec02MemberEx {
 
 	public static void main(String[] args) {
-		Member member=new Member();
+		Sec02Member member=new Sec02Member();
 		member.name="ÃÖÇÏ¾á";
 		member.age=23;
 
