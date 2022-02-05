@@ -1,4 +1,4 @@
-package sec03.ex06;
+package sec02.ex06;
 
 public class Parent {
 

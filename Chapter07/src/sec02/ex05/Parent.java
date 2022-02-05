@@ -1,4 +1,4 @@
-package sec03.ex05;
+package sec02.ex05;
 
 public class Parent {
 	public String field1;
